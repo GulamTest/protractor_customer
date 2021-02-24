@@ -1,0 +1,17 @@
+{
+  "name": "ui-multi-devices-testing",
+  "version": "0.1.0",
+  "readme": "Protractor Integration with [lambdatest](https://www.lambdatest.com)",
+  "description": "run tests in gitlab ci",
+  "scripts": {
+    "test": "npm run single",
+    "single": "./node_modules/.bin/protractor single.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^8.3.0",
+    "protractor": "^7.0.0",
+    "selenium-webdriver": "^4.0.0-alpha.8"
+  }
+}
